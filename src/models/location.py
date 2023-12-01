@@ -17,6 +17,8 @@ class Location(db.Model):
 """location_id = db.Column(db.Integer, primary_key=True): This line defines a column named location_id of type Integer,
 serving as the primary key for the Location table. A primary key uniquely identifies each row in the table."""
     location_id = db.Column(db.Integer, primary_key=True)
+
+"""This line  """
     city = db.Column(db.String(255))
     state = db.Column(db.String(255))
     country = db.Column(db.String(255))

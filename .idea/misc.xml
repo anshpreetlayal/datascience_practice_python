@@ -1,8 +1,12 @@
-<project version="4">
-  <component name="Black">
+<project version="4"> #specifies the version of the project configuration file
+  <!-- Black formatter settings -->
+  <component name="Black"> #represents settings related to the Black code formatter for Python
     <option name="sdkName" value="Pipenv (datascience_practice_python)" />
   </component>
+
+  <!-- Project Root Manager settings -->
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="Pipenv (datascience_practice_python)" project-jdk-type="Python SDK">
+    <!-- Output configuration -->
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
