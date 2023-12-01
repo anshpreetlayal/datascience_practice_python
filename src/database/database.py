@@ -1,8 +1,27 @@
-# This line imports the SQLAlchemy class from the flask_sqlalchemy package.
-#flask_sqlalchemy is a Flask extension that simplifies database integration with Flask applications.
+"""
+Flask-SQLAlchemy Database Initialization
+
+This code initializes a SQLAlchemy object ('db') for database integration in Flask using Flask-SQLAlchemy,
+a Flask extension simplifying database interactions.
+
+1. Import SQLAlchemy class from flask_sqlalchemy package, an extension for Flask applications.
+2. Create an instance ('db') of the SQLAlchemy class to manage database connections and operations.
+
+SQLAlchemy provides methods and attributes to interact with the database, including defining models,
+performing CRUD operations, and managing database transactions in a Flask application.
+
+Usage Example:
+    # Define a database model using 'db' object
+    class User(db.Model):
+        # Define User model fields and relationships here
+        ...
+
+    # Create and manipulate database objects using 'db' methods
+    user = User(username='example', email='example@example.com')
+    db.session.add(user)
+    db.session.commit()
+"""
 from flask_sqlalchemy import SQLAlchemy
 
-
-#this creates an instance of the SQLAlchemy class and assigns it to the variable db
-#This  instance represents the database connection and provides methods and attrobutes to interact with the dB
+# Initialize SQLAlchemy object for database management
 db = SQLAlchemy()
