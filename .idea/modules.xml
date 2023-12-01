@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> <!-- Declaration of the XML version and encoding.-->
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <!--Defines a module entry within the project. This entry specifies the file URL and filepath for a module -->
       <module fileurl="file://$PROJECT_DIR$/.idea/datascience_practice_python.iml" filepath="$PROJECT_DIR$/.idea/datascience_practice_python.iml" />
     </modules>
   </component>
