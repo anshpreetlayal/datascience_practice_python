@@ -1,12 +1,22 @@
+<!--  Declaration of the XML version and encoding -->
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+<module type="JAVA_MODULE" version="4"> <!-- Specifies module type and its version-->
+  <component name="NewModuleRootManager" inherit-compiler-output="true"> <!--Configuration for the module's root manager.-->
+    <!-- Exclude output directory -->
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
+
+    <!-- Content definition -->
+    <content url="file://$MODULE_DIR$"> <!--Defines content within the module.-->
+      <!-- Exclude specific folders -->
       <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/temporary" />
     </content>
+
+    <!-- JDK (Python SDK managed by Pipenv) -->
+    <!--Defines an entry for the Python SDK managed by Pipenv named "datascience_practice_python" as a Java Development Kit (JDK) for the module. -->
     <orderEntry type="jdk" jdkName="Pipenv (datascience_practice_python)" jdkType="Python SDK" />
-    <orderEntry type="sourceFolder" forTests="false" />
+
+    <!-- Source folder -->
+    <orderEntry type="sourceFolder" forTests="false" /> <!--Specifies a source folder entry-->
   </component>
 </module>
