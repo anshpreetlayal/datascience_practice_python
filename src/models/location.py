@@ -1,5 +1,6 @@
+#from src.database.database import db: This line imports the db object, which is an instance of SQLAlchemy, used for defining the database model.
 from src.database.database import db
-
+#Defines a SQLAlchemy model named Location that inherits from db.Model, indicating it's a model class mapped to a database table.
 class Location(db.Model):
 
     """
