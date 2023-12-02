@@ -1,6 +1,8 @@
 from src.database.database import db
 
 
+
+""" """
 class UserCompanyMapping(db.Model):
     """
     Represents the mapping between a user, a company, a position, and a location.
