@@ -1,4 +1,5 @@
-from src.database.database import db
+"""defines a Company class that represents a company model in a database using SQLAlchemy, a popular Object-Relational Mapping (ORM) library for Python"""
+from src.database.database import db   #This line imports the DB object from the givemm module. the db object is an instance of SQLAlchemy's SQLAlchemy class and represents the DB
 class Company(db.Model):
 
     """

@@ -1,3 +1,5 @@
+#This Dockerfile is a set of instructions for creating a Docker image that sets up a Python environment using Pipenv, installs project dependencies, copies application code, and configures a Flask application to run on port 5000 inside a Docker container.
+
 # Use the official Python image as the base image
 FROM python:3.11.6
  #This line specifies the base image to use for building the current image. Here, it uses the official Python image from Docker Hub with Python version 3.11.6 as the starting point for the  application.
